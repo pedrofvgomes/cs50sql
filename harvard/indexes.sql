@@ -1,0 +1,1 @@
+create index course_enrollment on enrollments(course_id, student_id);
