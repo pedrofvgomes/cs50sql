@@ -1,4 +1,4 @@
-select first_name, last_name, salary*1.0/H as 'dollars per hit'
+select first_name, last_name, salary/H as 'dollars per hit'
 from players, salaries, performances
 where performances.year = 2001
 and salaries.year = 2001
